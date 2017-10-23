@@ -21,7 +21,6 @@ $ sudo yum install tsocks
 
 ### Windows版
 - ユーザインタフェースが洗練されていておすすめなのは、[ProxyCap](http://www.proxycap.com/order.html)である。
-aaaaa
-bbbbb
+ProxyCapは有償製品であり、$30/3年のライセンス費用が掛かる(30日試用可能)。
 
 ## 使い方
