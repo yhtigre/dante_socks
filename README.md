@@ -3,7 +3,7 @@
 ## 概要
 Dante SOCKSサーバの構成例について。
 
-## 構成概略図
+## 構成概略
 ![構成概略図](https://github.com/yhtigre/dante_socks/blob/imgs/imgs/fig01.png?raw=true)
 
 - SOCKSプロトコルについては、[リモートアクセス環境におけるセキュリティ](https://www.ipa.go.jp/security/awareness/administrator/remote/index.html)などを参照。
@@ -18,5 +18,10 @@ Dante SOCKSサーバの構成例について。
 ```Bash
 $ sudo yum install tsocks
 ```
+
+### Windows版
+- ユーザインタフェースが洗練されていておすすめなのは、[ProxyCap](http://www.proxycap.com/order.html)である。
+aaaaa
+bbbbb
 
 ## 使い方
