@@ -21,8 +21,8 @@ $ sudo yum install tsocks
 
 ### Windows版
 - [ProxyCap](http://www.proxycap.com/)
-	ユーザインタフェースが洗練されていておすすめなのは ProxyCapは有償製品であり、$30/3年のライセンス費用が掛かる(30日試用可能)。
+	- ユーザインタフェースが洗練されていておすすめなのは ProxyCapは有償製品であり、$30/3年のライセンス費用が掛かる(30日試用可能)。
 - [SocksCap64](https://www.sockscap64.com/en/homepage/) 
-	aaaaaaaaa
+	- aaaaaaaaa
 
 ## 使い方
