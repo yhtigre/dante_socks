@@ -28,7 +28,6 @@ $ sudo yum install tsocks
 
 ## SOCKSサーバ
 
-### sockd
 - Dante SOCKSサーバのソースコードを入手する。
 ```Bash
 $ wget https://www.inet.no/dante/files/dante-1.4.1.tar.gz
