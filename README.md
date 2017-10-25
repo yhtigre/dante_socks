@@ -26,4 +26,22 @@ $ sudo yum install tsocks
 - [SocksCap64](https://www.sockscap64.com/en/homepage/) 
 	- 無償で利用可能。
 
-## 使い方
+## SOCKSサーバ
+
+### sockd
+- Dante SOCKSサーバのソースコードを入手する。
+```Bash
+$ wget https://www.inet.no/dante/files/dante-1.4.1.tar.gz
+```
+- ソースからRPMパッケージを生成する。
+```Bash
+$ sudo yum install rpm-build
+$ sudo yum install gcc gcc-c++ glibc glibc-devel
+$ sudo yum install pam-devel bison flex
+$ rpmbuild -ta ./dante-1.4.1.tar.gz
+```
+- RPMパッケージを導入する。
+```Bash
+$ cd ~/rpmbuild/RPMS/x86_64
+$ sudo rpm -ivh dante-1.4.1-1.el6.x86_64.rpm dante-devel-1.4.1-1.el6.x86_64.rpm dante-server-1.4.1-1.el6.x86_64.rpm
+```
