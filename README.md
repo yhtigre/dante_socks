@@ -28,6 +28,8 @@ $ sudo yum install tsocks
 
 ## SOCKSサーバ
 
+### sockd
+
 - Dante SOCKSサーバのソースコードを入手する。
 ```Bash
 $ wget https://www.inet.no/dante/files/dante-1.4.1.tar.gz
@@ -43,4 +45,12 @@ $ rpmbuild -ta ./dante-1.4.1.tar.gz
 ```Bash
 $ cd ~/rpmbuild/RPMS/x86_64
 $ sudo rpm -ivh dante-1.4.1-1.el6.x86_64.rpm dante-devel-1.4.1-1.el6.x86_64.rpm dante-server-1.4.1-1.el6.x86_64.rpm
+```
+
+### 1108[12]_tun.sh
+
+- 外部拠点B～Cへの転送用にsockdとともに起動しておく。
+```Bash
+$ ./11081_tun.sh start
+$ ./11082_tun.sh start
 ```
